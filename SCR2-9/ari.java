@@ -14,6 +14,12 @@ public class ari extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+           if(Greenfoot.isKeyDown("left"))// Add your action code here.
+        {
+            setRotation(180);
+            move(4);
+            
+            
+    } // Add your action code here.
     }    
 }
