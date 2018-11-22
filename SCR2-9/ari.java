@@ -13,9 +13,18 @@ public class ari extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
+<<<<<<< HEAD
     {     if (Greenfoot.isKeyDown("right")){
 
             move(4);// Add your action code here.
+=======
+    {
+        if( Greenfoot.isKeyDown( "up" ) ){
+        setRotation(270);
+        move(1);
+}
+        // Add your action code here.
+>>>>>>> 683c273fcc276e272fa8a46eb5dec54201f886bd
     }    
 }
         // Add your action code here.
