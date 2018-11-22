@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=f5721ac25a74c64b0b60b99a2d9ae7e915b89067
+>>>>>>>=683c273fcc276e272fa8a46eb5dec54201f886bd
 class.MyWorld.superclass=greenfoot.World
 class.ari.image=ant.png
 class.ari.superclass=greenfoot.Actor
@@ -11,8 +11,8 @@ class.ororo.image=car-4.png
 class.ororo.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=836
-mainWindow.x=91
-mainWindow.y=223
+mainWindow.x=412
+mainWindow.y=468
 package.numDependencies=0
 package.numTargets=4
 project.charset=UTF-8
