@@ -12,14 +12,13 @@ public class ari extends Actor
      * Act - do whatever the ari wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
-<<<<<<< HEAD
-    {     if (Greenfoot.isKeyDown("right")){
+    public void act()
 
+    {     if (Greenfoot.isKeyDown("right")){
+setRotation(0);
             move(4);// Add your action code here.
-=======
+        }
     {
-<<<<<<< HEAD
            if(Greenfoot.isKeyDown("left"))// Add your action code here.
         {
             setRotation(180);
@@ -27,15 +26,13 @@ public class ari extends Actor
             
             
     } // Add your action code here.
-=======
         if( Greenfoot.isKeyDown( "up" ) ){
         setRotation(270);
-        move(1);
-}
-        // Add your action code here.
->>>>>>> 683c273fcc276e272fa8a46eb5dec54201f886bd
-    }    
+        move(4);
 }
         // Add your action code here.
     }    
+}
+        // Add your action code here.
+}    
 
